@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "admin",
+      "type": "com.nit.properties.AppProperties",
+      "sourceType": "com.nit.properties.AppProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "admin.messsages",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "com.nit.properties.AppProperties"
+    }
+  ],
+  "hints": []
+}

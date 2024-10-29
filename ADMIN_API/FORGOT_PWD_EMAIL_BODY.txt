@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Recovery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .header {
+            background-color: #0056b3;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            border-radius: 5px 5px 0 0;
+        }
+        .content {
+            padding: 20px;
+        }
+        .footer {
+            background-color: #f8f9fa;
+            padding: 10px;
+            text-align: center;
+            border-radius: 0 0 5px 5px;
+        }
+        .highlight {
+            background-color: #fffacd;
+            padding: 10px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Password Recovery</h1>
+        </div>
+        <div class="content">
+            <p>Dear ${FNAME},</p>
+            
+            <p>We received a request to recover your password for your account with the Indian Government services. Your security is our top priority, and we're here to help you regain access to your account.</p>
+            
+            <p>Please find your current password below:</p>
+            
+            <p class="highlight">Your Password: ${PWD}</p>
+            
+            <p><strong>Important:</strong> For your security, we strongly recommend that you change this password immediately after logging in. To change your password, please follow these steps:</p>
+            
+            <ol>
+                <li>Log in to your account using the provided password</li>
+                <li>Navigate to the "Account Settings" or "Security" section</li>
+                <li>Look for an option to change your password</li>
+                <li>Enter your current password (the one provided in this email)</li>
+                <li>Enter and confirm your new password</li>
+            </ol>
+            
+            <p>If you did not request this password recovery, please contact our support team immediately.</p>
+            
+            <p>Thank you for using our services. We are committed to ensuring the security and privacy of your information.</p>
+        </div>
+        <div class="footer">
+            <p>Best regards,<br>Indian Government IT Services</p>
+        </div>
+    </div>
+</body>
+</html>
